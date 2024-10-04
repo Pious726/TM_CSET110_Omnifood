@@ -35,6 +35,7 @@ h1 {
     font-size: 240%;
     font-weight: 300;
     word-spacing: 4px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 .logo {
@@ -82,6 +83,7 @@ btn:hover, btn:active {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
+    margin-right: 15px;
 }
 .btn-ghost {
     border: 1px solid;
