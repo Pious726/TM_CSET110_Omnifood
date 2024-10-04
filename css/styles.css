@@ -41,16 +41,21 @@ h1 {
 .logo {
     height: 100px;
     width: auto;
-    flex-basis: 1;
+    margin-top: 15px;
 }
 
 
 /* Style rules for navagation */
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
 .navigation {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 .navigation li {
     display: inline-block;
