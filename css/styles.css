@@ -10,20 +10,20 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    text-transform: uppercase;
 }
 
+/* Style rules for header */
 .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg);
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
 }
-
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
-
 .hero-text-box {
     width: 1140px;
     position: absolute;
@@ -35,8 +35,54 @@ html {
     font-weight: 300;
     word-spacing: 4;
 }
-
 .logo {
     height: 100px;
     width: auto;
+}
+
+
+/* Style rules for navagation */
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+}
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+}
+
+
+/* Style rules for buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+}
+btn:hover, btn:active {
+    background-color: #cf6d17;
+}
+.btn-full {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+.btn-ghost {
+    border: 1px solid;
+    color: #e67e22;
+    transition: color 0.2s;
+}
+.btn-full:hover, .btn-full:active {
+    border: 1px solid #cf6d17;
+}
+.btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
 }
