@@ -70,7 +70,9 @@ h1 {
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
 }
-
+.navigation li a:hover {
+    border-bottom: 2px solid #e67e22;
+}
 
 /* Style rules for buttons */
 .btn {
