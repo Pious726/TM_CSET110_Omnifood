@@ -35,3 +35,8 @@ html {
     font-weight: 300;
     word-spacing: 4;
 }
+
+.logo {
+    height: 100px;
+    width: auto;
+}
