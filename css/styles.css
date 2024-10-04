@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* Style rules for header */
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.hero-text-box {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+h1 {
+    font-size: 240%;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.logo {
+    height: 100px;
+    width: auto;
+    margin-top: 15px;
+}
+
+
+/* Style rules for navagation */
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    list-style-type: none;
+    
+}
+.navigation li {
+    display: inline-block;
+    margin-left: 40px
+}
+.navigation li a:link, .navigation li a:visited {
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+
+/* Style rules for buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+}
+btn:hover, btn:active {
+    background-color: #cf6d17;
+}
+.btn-full {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+.btn-ghost {
+    border: 1px solid;
+    color: #e67e22;
+    transition: color 0.2s;
+}
+.btn-full:hover, .btn-full:active {
+    border: 1px solid #cf6d17;
+}
+.btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
