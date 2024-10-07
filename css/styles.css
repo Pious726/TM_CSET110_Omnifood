@@ -249,3 +249,49 @@ img {
 
 
 /* Style rules for cities section */
+.flex-cities {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.cities-item {
+    padding: 1%;
+    margin: 1% 0 1% 1.6%;
+}
+.cities-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.cities-item p {
+    display: inline;
+}
+.city-feature {
+    margin-bottom: 5px;
+}
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+a {
+    background-color: transparent;
+}
+a:link, a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transform: border-bottom 0.2s, color 0.2s;
+}
+.ion-social-facebook, .ion-social-twitter, .ion-social-gogleplus, .ion-social-instagram {
+    transition: color 0.2s;
+}
