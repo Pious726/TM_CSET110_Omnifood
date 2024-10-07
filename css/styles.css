@@ -164,9 +164,6 @@ section {
 .flex-features {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
 }
 .features-item {
     margin-left: 0;
@@ -187,6 +184,11 @@ section {
 .fav-meals {
     padding: 0;
 }
+.flex-meals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 img {
     border-style: none;
 }
@@ -206,11 +208,6 @@ img {
 .meal-photo img:hover {
     opacity: 1;
     transform: scale(1.00);
-}
-.flex-meals {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 
@@ -266,9 +263,6 @@ img {
 .flex-cities {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
 .cities-item {
     padding: 1%;
