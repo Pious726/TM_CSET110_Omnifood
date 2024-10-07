@@ -104,6 +104,7 @@ h3 {
     border-bottom: 2px solid #e67e22;
 }
 
+
 /* Style rules for buttons */
 .btn {
     display: inline-block;
@@ -134,6 +135,7 @@ btn:hover, btn:active {
     border: 1px solid #cf6d17;
     color: #fff;
 }
+
 
 /* Style rules for features section */
 section {
@@ -166,6 +168,7 @@ section {
     padding: 1%;
 }
 
+
 /* Styles for favorite meals section */
 img {
     border-style: none;
@@ -191,4 +194,21 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+
+/* Styles for section  */
+.download {
+    background-color: #f4f4f4;
+}
+.iphone-img {
+    width: 40%;
+}
+.btn-app:link, .btn-app:visited {
+    border: 0;
+}
+.btn-app img {
+    height: 50%;
+    width: auto;
+    margin-right: 10px;
 }
