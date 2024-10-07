@@ -170,6 +170,9 @@ section {
 
 
 /* Styles for favorite meals section */
+.fav-meals {
+    padding: 0;
+}
 img {
     border-style: none;
 }
@@ -197,18 +200,49 @@ img {
 }
 
 
-/* Styles for section  */
+/* Styles for download section  */
 .download {
     background-color: #f4f4f4;
 }
+.flex-download {
+    display: flex;
+    flex-direction: row;
+}
+.download-item {
+    margin: 1% 0 1% 1.6%;
+}
+.download-item-1 {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.download-item-2 {
+    padding-left: 3%;
+    margin-top: 70px;
+}
 .iphone-img {
     width: 40%;
+}
+.step-box {
+    margin-bottom: 50px;
+}
+.step {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
 }
 .btn-app:link, .btn-app:visited {
     border: 0;
 }
 .btn-app img {
-    height: 50%;
+    height: 50px;
     width: auto;
     margin-right: 10px;
 }
