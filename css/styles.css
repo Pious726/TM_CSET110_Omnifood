@@ -295,3 +295,45 @@ a:link, a:visited {
 .ion-social-facebook, .ion-social-twitter, .ion-social-gogleplus, .ion-social-instagram {
     transition: color 0.2s;
 }
+
+
+/* Styles for testemonials section */
+.testemonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+.flex-test {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.test-item {
+    margin: 1% 0 1% 1.6%;
+}
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+cite {
+    font-size: 90%;
+    display: block;
+    margin-top: 40px;
+}
+cite img {
+   height: 45px;
+   border-radius: 50%;
+   margin-right: 10px;
+   vertical-align: middle;
+}
