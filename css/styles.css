@@ -10,6 +10,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    line-height: 1.15;
 }
 
 
@@ -43,6 +44,11 @@ h3 {
     font-size: 110%;
     margin-bottom: 15px;
 }
+.text-box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
 
 /* Style rules for header */
 .header {
@@ -146,6 +152,9 @@ section {
     align-items: center;
     align-content: flex-start;
 }
+.features-item {
+    margin-left: 0;
+}
 .icon-big {
     font-size: 350%;
     display: block;
@@ -153,13 +162,16 @@ section {
     margin-bottom: 10px;
     --ionicon-stroke-width: 20px;
 }
+.text-box {
+    padding: 1%;
+}
 
 /* Styles for favorite meals section */
 img {
     border-style: none;
 }
 .meal-photo {
-    width: 100%;
+    width: 25%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
@@ -167,7 +179,7 @@ img {
 .meal-photo img {
     opacity: 0.7;
     width: 100%;
-    height: auto;
+    height: 100%;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
 }
