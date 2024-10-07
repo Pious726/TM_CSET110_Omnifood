@@ -39,7 +39,10 @@ h2:after {
     margin: auto;
     margin-top: 30px;
 }
-
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
 
 /* Style rules for header */
 .header {
@@ -135,4 +138,11 @@ section {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+}
+.flex-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
 }
