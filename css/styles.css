@@ -114,6 +114,14 @@ h3 {
     border-radius: 200px;
     color: #fff;
 }
+btn:link, .btn:visted {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
 btn:hover, btn:active {
     background-color: #cf6d17;
 }
@@ -127,6 +135,12 @@ btn:hover, btn:active {
     border: 1px solid;
     color: #e67e22;
     transition: color 0.2s;
+}
+.btn-full:link, .btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
 }
 .btn-full:hover, .btn-full:active {
     border: 1px solid #cf6d17;
@@ -150,9 +164,6 @@ section {
 .flex-features {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-start;
 }
 .features-item {
     margin-left: 0;
@@ -173,6 +184,11 @@ section {
 .fav-meals {
     padding: 0;
 }
+.flex-meals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 img {
     border-style: none;
 }
@@ -192,11 +208,6 @@ img {
 .meal-photo img:hover {
     opacity: 1;
     transform: scale(1.00);
-}
-.flex-meals {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 
@@ -252,9 +263,6 @@ img {
 .flex-cities {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
 .cities-item {
     padding: 1%;
@@ -288,7 +296,6 @@ a {
 a:link, a:visited {
     color: #e67e22;
     text-decoration: none;
-    padding-bottom: 1px;
     border-bottom: 1px solid #e67e22;
     transform: border-bottom 0.2s, color 0.2s;
 }
@@ -342,4 +349,39 @@ cite img {
 /* Styles for subscription section */
 .subscription {
     background-color: #f4f4f4;
+}
+.flex-subscription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+.plan-list ul{
+    list-style-type: none;
+}
+.plan-list ul li {
+    padding: 5px 0;
+}
+.plan-btn {
+    text-align: center;
 }
