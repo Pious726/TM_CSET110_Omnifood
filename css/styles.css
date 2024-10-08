@@ -628,7 +628,7 @@ footer p {
         width: 40%;
         text-align: center;
     }
-    steps-box:first-child {
+    .steps-box:first-child {
         text-align: center;
     }
     .works-step div {
