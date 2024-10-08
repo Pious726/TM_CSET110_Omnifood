@@ -32,6 +32,7 @@
             <a href="#" class="btn btn-ghost">Show me more</a>
         </div>
     </header>
+
     <section class="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food</h2>
@@ -60,6 +61,7 @@
             </div>
         </div>
     </section>
+
     <section class="fav-meals">
         <div class="flex-meals">
             <figure class="meal-photo">
@@ -88,6 +90,7 @@
             </figure>
         </div>
     </section>
+
     <section class="download">
         <div class="row">
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
@@ -114,6 +117,7 @@
             </div>
         </div>
     </section>
+
     <section class="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
@@ -185,6 +189,7 @@
             </div>
         </div>
     </section>
+
     <section class="testemonials">
         <div class="row">
             <h2>Our customers can't live without us</h2>
@@ -219,6 +224,7 @@
             </div>
         </div>
     </section>
+
     <section class="subscription">
         <div class="row">
             <h2>Start eating healthy today</h2>
@@ -279,24 +285,36 @@
             </div>
         </div>
     </section>
+
     <div class="map-box">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24434.626803390103!2d-76.283904!3d40.045772799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1728390780109!5m2!1sen!2sus" width="1140" height="600" style="border:0;margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="form">
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24433.452268754623!2d-76.283904!3d40.0490496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1728399125118!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        
+        <div class="form-box">
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
-            <div class="row">
-                <form method="post" action="#" class="contact-form">
-                    <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="form-flex row">
+                    <div class="flex-item flex-item-1">
                         <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Your name" required>
                     </div>
-                    <div class="row">
+                    <div class="flex-item flex-item-2">
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                    </div>
+                </div>
+                <div class="form-flex row">
+                    <div class="flex-item flex-item-1">
                         <label for="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="Your email" required>
                     </div>
-                    <div class="row">
+                    <div class="flex-item flex-item-2">
+                        <input type="Email" name="email" id="email" placeholder="Your email">
+                    </div>
+                </div>
+                <div class="form-flex row">
+                    <div class="flex-item flex-item-1">
                         <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="flex-item flex-item-2">
                         <select name="find-us" id="find-us">
                             <option value="friends">Friends</option>
                             <option value="search">Search Engine</option>
@@ -304,22 +322,35 @@
                             <option value="other">Other</option>
                         </select>
                     </div>
-                    <div class="row">
+                </div>
+                <div class="form-flex row">
+                    <div class="flex-item flex-item-1">
                         <label>Newsletter?</label>
-                        <input type="checkbox" name="news" id="news" checked> Yes, please
                     </div>
-                    <div class="row">
+                    <div class="flex-item flex-item-2">
+                        <input type="checkbox" names="news" id="news" checked> Yes, please!
+                    </div>
+                </div>
+                <div class="form-flex row">
+                    <div class="flex-item flex-item-1">
                         <label>Drop us a line</label>
+                    </div>
+                    <div class="flex-item flex-item-2">
                         <textarea name="message" placeholder="Your message"></textarea>
                     </div>
-                    <div class="row">
+                </div>
+                <div class="form-flex row">
+                    <div class="flex-item flex-item-1">
                         <label>&nbsp;</label>
+                    </div>
+                    <div class="flex-item flex-item-2">
                         <input type="submit" value="Send it!">
                     </div>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
+
     <footer class="footer">
         <div class="row">
             <div class="footer-flex">
