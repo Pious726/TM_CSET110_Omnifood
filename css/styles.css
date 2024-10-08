@@ -146,7 +146,12 @@ section {
     width: auto;
     margin-top: 15px;
 }
-
+.logo-black {
+    display: none;
+    height: 50px;
+    width: auto;
+    margin: 5px 0;
+}
 
 /* Style rules for navagation */
 .navigation {
@@ -165,8 +170,17 @@ section {
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
 }
-.navigation li a:hover {
+.navigation li a:hover, .navigation li a:active {
     border-bottom: 2px solid #e67e22;
+}
+.mobile-nav-icon {
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon ion-icon{
+    font-size: 200%;
+    color: #fff;
 }
 
 
@@ -177,14 +191,14 @@ section {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: rgb(255 255 2555 0.98);
+    background-color: rgb(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }
 .sticky .navigation {
     margin-top: 18px;
 }
-.sticky .navigation li a:link, .sticky .navigation li a:link {
+.sticky .navigation li a:link, .sticky .navigation li a:visited {
     padding: 16px 0;
     color: #555;
 }
@@ -581,7 +595,6 @@ footer p {
         display: inline-block;
     }
     .navigation {
-        float: left;
         margin-top: 30px;
         margin-left: 25px;
     }
@@ -657,5 +670,14 @@ footer p {
         width: 100%;
         height: auto;
         padding: 30px 0;
+    }
+    .two-flex {
+        display: block;
+    }
+    .three-flex {
+        display: block;
+    }
+    .four-flex {
+        display: block;
     }
 }
