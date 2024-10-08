@@ -170,6 +170,31 @@ section {
 }
 
 
+/* Style rules for sticky navigation */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(255 255 2555 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+.sticky .navigation {
+    margin-top: 18px;
+}
+.sticky .navigation li a:link, .sticky .navigation li a:link {
+    padding: 16px 0;
+    color: #555;
+}
+.sticky .logo {
+    display: none;
+}
+.sticky .logo-black {
+    display: block;
+}
+
 /* Style rules for features section */
 .intro-text {
     margin-bottom: 30px;
@@ -233,8 +258,17 @@ img {
 .iphone-img {
     width: 40%;
 }
-.step-box {
+.works-step {
     margin-bottom: 50px;
+}
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
 }
 .step {
     color: #e67e22;
@@ -470,4 +504,158 @@ footer p {
 }
 .instagram:hover {
     color: #bc2a8d;
+}
+
+/* Styles for media quieries */
+/* Big tablet to 1200px (widths smaller that the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .intro-text {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .step-box {
+        margin-top: 10px;
+    }
+    .step-box:last-child {
+        margin-top: 10px;
+    }
+    .works-step {
+        margin-bottom: 40px;
+    }
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+    .iphone-img {
+        width: 50%;
+    }
+    .icon-small {
+        width: 17px;
+        margin-right: 5px; 
+    }
+    .city-feature {
+        font-size: 90%;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price {
+        font-size: 250%;
+    }
+    .contact-form {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .row, .hero-text-box, .flex-item {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .navigation {
+        display: none;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .navigation {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    .navigation li a:link, .navigation li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    .sticky .navigation {
+        margin-top: 10px;
+    }
+    .sticky .navigation li a:link, .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    .sticky .mobile-nav-icon ion-icon {
+        margin-top: 10px;
+        color: #555;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    .long {
+        width: 100%;
+        margin-left: 0;
+    }
+    .iphone-img {
+        width: 40%;
+    }
+    steps-box:first-child {
+        text-align: center;
+    }
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    .works-step {
+        margin-bottom: 20px;
+    }
+    .works-step:last-of-type {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+    btn-full {
+        margin-bottom: 5px;
+    }
+    .contact-form {
+        width: 100%
+    }
+    .map-box {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    iframe {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        z-index: 0;
+    }
+    .form-box {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+    }
 }
