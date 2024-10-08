@@ -68,7 +68,6 @@ h3 {
 .nav-flex {
     display: flex;
     flex-direction: row;
-    align-content: center;
     justify-content: space-between;
     align-items: center;
 }
@@ -80,7 +79,9 @@ h3 {
 .flex-item {
     margin: 1% 0 1% 1.6%;
 }
-
+.flex-item:first-child {
+    margin-left: 0;
+}
 
 /* Styles for common items */
 .row {
@@ -90,7 +91,9 @@ h3 {
 .box {
     padding: 1%;
 }
-
+section {
+    padding: 80px 0;
+}
 
 /* Style rules for buttons */
 .btn:link, .btn:visited, input[type=submit] {
@@ -168,9 +171,6 @@ h3 {
 
 
 /* Style rules for features section */
-section {
-    padding: 80px 0;
-}
 .intro-text {
     margin-bottom: 30px;
     line-height: 145%;
@@ -334,7 +334,8 @@ cite img {
     background-color: #fff;
     border-radius: 5px;
     width: 90%;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     box-shadow: 0 2px 2px #efefef;
 }
 .plan-box div {
@@ -363,6 +364,13 @@ cite img {
 
 
 /* Styles for contact section */
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 7px;
@@ -375,13 +383,15 @@ textarea {
 input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
-.map {
+iframe {
     width: 100%;
     height: 560px;
     position: relative;
     z-index: 0;
 }
-
+label {
+    margin-right: 10px;
+}
 
 /* Styles for footer section */
 footer {
